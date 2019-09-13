@@ -10,11 +10,11 @@ form = """
     <head>
         <style>
             form {{
-                background-color: #eee;
+                background-color: #ccc;
                 padding: 20px;
                 margin: 0 auto;
                 width: 540px;
-                font: 16px sans-serif;
+                font: 22px sans-serif;
                 border-radius: 10px;
             }}
             textarea {{
@@ -26,10 +26,10 @@ form = """
     </head>
     <body>
         <form method='POST'>
-            <label>Rotate by:</label>
+            <label>Rotate text by:</label>
             <input type="text" name="rot" value="0" />
             <textarea name="text">{0}</textarea>
-            <input type="submit" value="Submit Query" />            
+            <input type="submit" value="Submit" />            
         </form>
     
     </body>
